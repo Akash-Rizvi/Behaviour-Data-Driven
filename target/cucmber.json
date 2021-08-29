@@ -1,0 +1,359 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 605346200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the TechFios Login Page",
+            "match": {
+              "location": "StepDefs.user_is_on_the_TechFios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3203155400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.Before_run()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "",
+        "description": "User should be able to login with valid credentials (Keeping Variables and Placeholders separated)",
+        "id": "validate-techfios-login-page-functionality;;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 630036800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 142057900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefs.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3493807400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on the log in button",
+            "match": {
+              "location": "StepDefs.user_clicks_on_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40648800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should be able to see the DashBoard Page",
+            "match": {
+              "location": "StepDefs.user_should_be_able_to_see_the_DashBoard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@End2End"
+          },
+          {
+            "line": 27,
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 379071200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the TechFios Login Page",
+            "match": {
+              "location": "StepDefs.user_is_on_the_TechFios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2054540900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.Before_run()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "",
+        "description": "User should be able to login with valid credentials (Keeping Variables and Placeholders separated)",
+        "id": "validate-techfios-login-page-functionality;;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 637742700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157488900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the \"demo@techfios.com\" and \"abc1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc1234",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefs.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2953127400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on the log in button",
+            "match": {
+              "location": "StepDefs.user_clicks_on_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38332200,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.StepDefs.user_should_be_able_to_see_the_DashBoard_Page(StepDefs.java:65)\r\n\tat ✽.Then User should be able to see the DashBoard Page(features/TechFios_Login.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User should be able to see the DashBoard Page",
+            "match": {
+              "location": "StepDefs.user_should_be_able_to_see_the_DashBoard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@End2End"
+          },
+          {
+            "line": 27,
+            "name": "@Scenario3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 388055900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the TechFios Login Page",
+            "match": {
+              "location": "StepDefs.user_is_on_the_TechFios_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2100710800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.Before_run()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "",
+        "description": "User should be able to login with valid credentials (Keeping Variables and Placeholders separated)",
+        "id": "validate-techfios-login-page-functionality;;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 634915500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tear_down()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 146474600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enters the \"demo1@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo1@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc123",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefs.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3301855000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on the log in button",
+            "match": {
+              "location": "StepDefs.user_clicks_on_the_log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37410800,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[Dashboard]- iBilling\u003e but was:\u003c[Login ]- iBilling\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.StepDefs.user_should_be_able_to_see_the_DashBoard_Page(StepDefs.java:65)\r\n\tat ✽.Then User should be able to see the DashBoard Page(features/TechFios_Login.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "User should be able to see the DashBoard Page",
+            "match": {
+              "location": "StepDefs.user_should_be_able_to_see_the_DashBoard_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@End2End"
+          },
+          {
+            "line": 27,
+            "name": "@Scenario3"
+          }
+        ]
+      }
+    ],
+    "name": "Validate TechFios Login Page Functionality",
+    "description": "",
+    "id": "validate-techfios-login-page-functionality",
+    "keyword": "Feature",
+    "uri": "features/TechFios_Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@End2End"
+      }
+    ]
+  }
+]
